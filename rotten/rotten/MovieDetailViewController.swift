@@ -30,6 +30,8 @@ class MovieDetailViewController: UIViewController {
         var posterImage = posters["detailed"] as NSString;
         moviePoster.setImageWithURL(NSURL(string: posterImage));
 
+        moviePoster.setImageWithURL(NSURL(string: posterImage.stringByReplacingOccurrencesOfString("tmb", withString: "det")));
+
         var rating = movieEntity["ratings"] as NSDictionary;
         var audienceScore = rating["audience_score"] as NSInteger;
         var criticsScore = rating["critics_score"] as NSInteger;
