@@ -81,17 +81,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         println(searchText);
     }
     
-    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchString searchString: String!) -> Bool {
-        self.filterContentForSearchText(searchString)
-        println("while searching before");
-        return true
-    }
     
-    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
-        println("Hello World");
-        println("after searching complete");
-        return true
-    }
+    
     
     func searchBarShouldBeginEditing(searchBar: UISearchBar!) -> Bool   {
         println("Begin Search");
@@ -116,14 +107,25 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     func searchDisplayControllerDidBeginSearch(controller: UISearchDisplayController!){
         println("Start search display Method 2");
     }
-    /*
-    // MARK: - Navigation
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+    func searchBarSearchButtonClicked(searchBar: UISearchBar!) {
+        self.movies = self.movies.filter({(movie: NSDictionary) -> Bool in
+            var  stringMatch = (movie["title"] as NSString).rangeOfString(searchBar.text);
+            return stringMatch != nil;
+        });
+
     }
-    */
+    
+    
+    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchString searchString: String!) -> Bool{
+        println(searchString);
+        return true;
+    }
+    
+    
+    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchScope searchOption: Int) -> Bool{
+        println("Here ...");
+        return true;
+    }
     
 }
