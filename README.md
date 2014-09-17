@@ -1,21 +1,23 @@
-Box Office Movies
+RottenTomatoes Box Office Movies
 ============
 
 ### Todos
 
-1. ~~Display all the box office movies in the List View~~
-2. ~~Show a waiting / busy indicator while the list is loaded~~
-3. ~~Display the data in Table View once the API returned JSON Result~~
-4. ~~On Tap of the Detail, Show Movie Detail~~
-    * ~~Movie Poster in the Background~~
-    * ~~Movie Description in the bottom~~
-5. Implement Search bar to search movies from the list
-6. Show movies / DVD options in the Detail Page
-7. Network error
+#### Required Items
 
-### Time Taken to complete : 9 hrs
+- [x] User can view a list of movies from Rotten Tomatoes. Poster images must be loading asynchronously
+- [x] User can view movie details by tapping on a cell
+- [x] User sees loading state while waiting for movies API - Created a custom "BusyIndicator.swift"
+- [x] User can pull to refresh the movie list
+- []  User sees a network error when connection is timedout
 
-> Striked out items are complete
+#### Optionals
+- [x] For the large poster, load the low-res image first, switch to high-res when complete (optional)
+- [ ] All images should be cached in memory and disk - THis is relatively easy..will get to it in a day
+- [ ] Customize the highlight and selection effect of the cell.
+- [x] Customize the navigation bar
+- [ ] Add a tab bar for Box Office and DVD
+- [ ] Add search bar, Added search bar , Search display is pending
 
 ### Screenshot
 
