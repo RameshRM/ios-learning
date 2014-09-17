@@ -19,5 +19,5 @@ Box Office Movies
 
 ### Screenshot
 
-![Movie List](movielist.gif)
+![Movie List](https://github.com/RameshRM/ios-learning/blob/master/MovieList.gif)
 
