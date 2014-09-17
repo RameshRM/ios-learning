@@ -17,3 +17,7 @@ Box Office Movies
 
 > Striked out items are complete
 
+### Screenshot
+
+![Movie List](movielist.gif)
+
