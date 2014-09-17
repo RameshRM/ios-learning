@@ -19,7 +19,12 @@ RottenTomatoes Box Office Movies
 - [ ] Add a tab bar for Box Office and DVD
 - [ ] Add search bar, Added search bar , Search display is pending
 
+===
+
 ### Screenshot
 
 ![Movie List](https://github.com/RameshRM/ios-learning/blob/master/MovieList.gif)
 
+===
+
+### Total Hours Spent : 9
