@@ -9,7 +9,7 @@ RottenTomatoes Box Office Movies
 - [x] User can view movie details by tapping on a cell
 - [x] User sees loading state while waiting for movies API - Created a custom "BusyIndicator.swift"
 - [x] User can pull to refresh the movie list
-- []  User sees a network error when connection is timedout
+- [ ]  User sees a network error when connection is timedout
 
 #### Optionals
 - [x] For the large poster, load the low-res image first, switch to high-res when complete (optional)
