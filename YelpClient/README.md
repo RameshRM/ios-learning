@@ -20,7 +20,7 @@ Yelp Client
 
 ### Screenshot
 
-![Movie List](https://github.com/RameshRM/ios-learning/blob/master/MovieList.gif)
+![Movie List](https://github.com/RameshRM/ios-learning/blob/master/YelpClient/MovieList.gif)
 
 ===
 
