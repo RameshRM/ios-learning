@@ -41,7 +41,8 @@ class MovieDetailViewController: UIViewController {
         var audienceScore = rating["audience_score"] as NSInteger;
         var criticsScore = rating["critics_score"] as NSInteger;
         movieAttributes.text = "Critics Score: \(criticsScore), Audience Score: \(audienceScore)";
-        detailPane.contentSize = CGSize(width:movieSynopsis.frame.width, height:(movieSynopsis.frame.height + movieSynopsis.frame.origin.y));
+        detailPane.contentSize = CGSize(width:movieSynopsis.frame.width, height:(movieSynopsis.frame.height + detailPane.frame.origin.y));
+        println(detailPane.contentSize);
     }
     
     override func didReceiveMemoryWarning() {
