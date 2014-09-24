@@ -57,7 +57,7 @@ class RestaurantsViewController: UIViewController,UITableViewDataSource, UITable
 
         cell.restaurantTitle.text = restaurant["name"] as NSString
         cell.thumbView.setImageWithURL(NSURL(string:thumbnail));
-        cell.reviewStars.setImageWithURL(NSURL(string:restaurant["rating_img_url_small"] as NSString));
+        cell.reviewStars.setImageWithURL(NSURL(string:restaurant["rating_img_url_large"] as NSString));
         var reviewCount = restaurant["review_count"]
         cell.reviewCount.text = "\(reviewCount) Reviews"
         var location = restaurant["location"] as NSDictionary;
