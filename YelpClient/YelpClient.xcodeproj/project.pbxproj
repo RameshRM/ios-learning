@@ -1,1001 +1,518 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2340DDC09C334A4583426481</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>44504EEDC63F45378EA1FE44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2340DDC09C334A4583426481</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BE0CBA65AE94B56B2586D53</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2340DDC09C334A4583426481</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>825C47A20B474760976E07E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E354A19CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E355519CFC44200954B44</string>
-				<string>900E356819CFC44200954B44</string>
-				<string>900E355419CFC44200954B44</string>
-				<string>825C47A20B474760976E07E8</string>
-				<string>4BE0CBA65AE94B56B2586D53</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E354B19CFC44200954B44</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0600</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>GoliaMania</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>900E355219CFC44200954B44</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-					</dict>
-					<key>900E356419CFC44200954B44</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>TestTargetID</key>
-						<string>900E355219CFC44200954B44</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>900E354E19CFC44200954B44</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>900E354A19CFC44200954B44</string>
-			<key>productRefGroup</key>
-			<string>900E355419CFC44200954B44</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>900E355219CFC44200954B44</string>
-				<string>900E356419CFC44200954B44</string>
-			</array>
-		</dict>
-		<key>900E354E19CFC44200954B44</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>900E356D19CFC44200954B44</string>
-				<string>900E356E19CFC44200954B44</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>900E354F19CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>900E355B19CFC44200954B44</string>
-				<string>9071CEAC19D14A9D00466BA7</string>
-				<string>9071CEA519D10FDD00466BA7</string>
-				<string>900E355919CFC44200954B44</string>
-				<string>9071CEAE19D14D8900466BA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E355019CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44504EEDC63F45378EA1FE44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E355119CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9071CEB319D14E5600466BA7</string>
-				<string>900E355E19CFC44200954B44</string>
-				<string>900E356019CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E355219CFC44200954B44</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>900E356F19CFC44200954B44</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E40B8ED894304CDB86B604E7</string>
-				<string>900E354F19CFC44200954B44</string>
-				<string>900E355019CFC44200954B44</string>
-				<string>900E355119CFC44200954B44</string>
-				<string>EA28DFCB10D54839ADB2BB6C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>YelpClient</string>
-			<key>productName</key>
-			<string>YelpClient</string>
-			<key>productReference</key>
-			<string>900E355319CFC44200954B44</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>900E355319CFC44200954B44</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>YelpClient.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>900E355419CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E355319CFC44200954B44</string>
-				<string>900E356519CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355519CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9071CEA819D1116600466BA7</string>
-				<string>9071CEA719D1116100466BA7</string>
-				<string>9071CEA619D1115700466BA7</string>
-				<string>900E355819CFC44200954B44</string>
-				<string>900E355A19CFC44200954B44</string>
-				<string>900E355C19CFC44200954B44</string>
-				<string>900E355F19CFC44200954B44</string>
-				<string>900E355619CFC44200954B44</string>
-				<string>9071CEA419D10FDD00466BA7</string>
-				<string>9071CEAF19D14DC400466BA7</string>
-				<string>9071CEB219D14E5600466BA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>YelpClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355619CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E355719CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355719CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355819CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355919CFC44200954B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900E355819CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900E355A19CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355B19CFC44200954B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900E355A19CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900E355C19CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E355D19CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355D19CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E355E19CFC44200954B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900E355C19CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900E355F19CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E356019CFC44200954B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900E355F19CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900E356119CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>900E356C19CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E356219CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E356319CFC44200954B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>900E356419CFC44200954B44</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>900E357219CFC44200954B44</string>
-			<key>buildPhases</key>
-			<array>
-				<string>900E356119CFC44200954B44</string>
-				<string>900E356219CFC44200954B44</string>
-				<string>900E356319CFC44200954B44</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>900E356719CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>YelpClientTests</string>
-			<key>productName</key>
-			<string>YelpClientTests</string>
-			<key>productReference</key>
-			<string>900E356519CFC44200954B44</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>900E356519CFC44200954B44</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>YelpClientTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>900E356619CFC44200954B44</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>900E354B19CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>900E355219CFC44200954B44</string>
-			<key>remoteInfo</key>
-			<string>YelpClient</string>
-		</dict>
-		<key>900E356719CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>900E355219CFC44200954B44</string>
-			<key>targetProxy</key>
-			<string>900E356619CFC44200954B44</string>
-		</dict>
-		<key>900E356819CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E356B19CFC44200954B44</string>
-				<string>900E356919CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>YelpClientTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E356919CFC44200954B44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>900E356A19CFC44200954B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E356A19CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E356B19CFC44200954B44</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>YelpClientTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900E356C19CFC44200954B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900E356B19CFC44200954B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900E356D19CFC44200954B44</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>900E356E19CFC44200954B44</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>900E356F19CFC44200954B44</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>900E357019CFC44200954B44</string>
-				<string>900E357119CFC44200954B44</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>900E357019CFC44200954B44</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>825C47A20B474760976E07E8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>YelpClient/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>YelpClient/YelpClient-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>900E357119CFC44200954B44</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>825C47A20B474760976E07E8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>YelpClient/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>YelpClient/YelpClient-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>900E357219CFC44200954B44</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>900E357319CFC44200954B44</string>
-				<string>900E357419CFC44200954B44</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>900E357319CFC44200954B44</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>YelpClientTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/YelpClient.app/YelpClient</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>900E357419CFC44200954B44</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>YelpClientTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/YelpClient.app/YelpClient</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9071CEA419D10FDD00466BA7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RestaurantsViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEA519D10FDD00466BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9071CEA419D10FDD00466BA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9071CEA619D1115700466BA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9071CEAB19D14A9D00466BA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEA719D1116100466BA7</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Models</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEA819D1116600466BA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9071CEAD19D14D8900466BA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>API</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEAB19D14A9D00466BA7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RestaurantTitleCard.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEAC19D14A9D00466BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9071CEAB19D14A9D00466BA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9071CEAD19D14D8900466BA7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ApiClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEAE19D14D8900466BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9071CEAD19D14D8900466BA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9071CEAF19D14DC400466BA7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>YelpClient-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEB219D14E5600466BA7</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Podfile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9071CEB319D14E5600466BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9071CEB219D14E5600466BA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E40B8ED894304CDB86B604E7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EA28DFCB10D54839ADB2BB6C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>900E354B19CFC44200954B44</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44504EEDC63F45378EA1FE44 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2340DDC09C334A4583426481 /* libPods.a */; };
+		900E355919CFC44200954B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E355819CFC44200954B44 /* AppDelegate.swift */; };
+		900E355B19CFC44200954B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E355A19CFC44200954B44 /* ViewController.swift */; };
+		900E355E19CFC44200954B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900E355C19CFC44200954B44 /* Main.storyboard */; };
+		900E356019CFC44200954B44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900E355F19CFC44200954B44 /* Images.xcassets */; };
+		900E356C19CFC44200954B44 /* YelpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E356B19CFC44200954B44 /* YelpClientTests.swift */; };
+		903D01D519D658D900F2CE1E /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D01D419D658D900F2CE1E /* FilterViewController.swift */; };
+		903D01D719D65E6100F2CE1E /* FilterOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903D01D619D65E6100F2CE1E /* FilterOptionsTableViewCell.swift */; };
+		9071CEA519D10FDD00466BA7 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071CEA419D10FDD00466BA7 /* RestaurantsViewController.swift */; };
+		9071CEAC19D14A9D00466BA7 /* RestaurantTitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071CEAB19D14A9D00466BA7 /* RestaurantTitleCard.swift */; };
+		9071CEAE19D14D8900466BA7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071CEAD19D14D8900466BA7 /* ApiClient.swift */; };
+		9071CEB319D14E5600466BA7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9071CEB219D14E5600466BA7 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900E356619CFC44200954B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900E354B19CFC44200954B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900E355219CFC44200954B44;
+			remoteInfo = YelpClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2340DDC09C334A4583426481 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		825C47A20B474760976E07E8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		900E355319CFC44200954B44 /* YelpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900E355719CFC44200954B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900E355819CFC44200954B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900E355A19CFC44200954B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900E355D19CFC44200954B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900E355F19CFC44200954B44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		900E356519CFC44200954B44 /* YelpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		900E356A19CFC44200954B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900E356B19CFC44200954B44 /* YelpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClientTests.swift; sourceTree = "<group>"; };
+		903D01D419D658D900F2CE1E /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		903D01D619D65E6100F2CE1E /* FilterOptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		9071CEA419D10FDD00466BA7 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		9071CEAB19D14A9D00466BA7 /* RestaurantTitleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTitleCard.swift; sourceTree = "<group>"; };
+		9071CEAD19D14D8900466BA7 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		9071CEAF19D14DC400466BA7 /* YelpClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YelpClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		9071CEB219D14E5600466BA7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900E355019CFC44200954B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44504EEDC63F45378EA1FE44 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E356219CFC44200954B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BE0CBA65AE94B56B2586D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2340DDC09C334A4583426481 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		900E354A19CFC44200954B44 = {
+			isa = PBXGroup;
+			children = (
+				900E355519CFC44200954B44 /* YelpClient */,
+				900E356819CFC44200954B44 /* YelpClientTests */,
+				900E355419CFC44200954B44 /* Products */,
+				825C47A20B474760976E07E8 /* Pods.xcconfig */,
+				4BE0CBA65AE94B56B2586D53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		900E355419CFC44200954B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900E355319CFC44200954B44 /* YelpClient.app */,
+				900E356519CFC44200954B44 /* YelpClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900E355519CFC44200954B44 /* YelpClient */ = {
+			isa = PBXGroup;
+			children = (
+				9071CEA819D1116600466BA7 /* API */,
+				9071CEA719D1116100466BA7 /* Models */,
+				9071CEA619D1115700466BA7 /* Views */,
+				900E355819CFC44200954B44 /* AppDelegate.swift */,
+				900E355A19CFC44200954B44 /* ViewController.swift */,
+				900E355C19CFC44200954B44 /* Main.storyboard */,
+				900E355F19CFC44200954B44 /* Images.xcassets */,
+				900E355619CFC44200954B44 /* Supporting Files */,
+				9071CEA419D10FDD00466BA7 /* RestaurantsViewController.swift */,
+				9071CEAF19D14DC400466BA7 /* YelpClient-Bridging-Header.h */,
+				9071CEB219D14E5600466BA7 /* Podfile */,
+				903D01D419D658D900F2CE1E /* FilterViewController.swift */,
+			);
+			path = YelpClient;
+			sourceTree = "<group>";
+		};
+		900E355619CFC44200954B44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				900E355719CFC44200954B44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		900E356819CFC44200954B44 /* YelpClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				900E356B19CFC44200954B44 /* YelpClientTests.swift */,
+				900E356919CFC44200954B44 /* Supporting Files */,
+			);
+			path = YelpClientTests;
+			sourceTree = "<group>";
+		};
+		900E356919CFC44200954B44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				900E356A19CFC44200954B44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9071CEA619D1115700466BA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9071CEAB19D14A9D00466BA7 /* RestaurantTitleCard.swift */,
+				903D01D619D65E6100F2CE1E /* FilterOptionsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9071CEA719D1116100466BA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9071CEA819D1116600466BA7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9071CEAD19D14D8900466BA7 /* ApiClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900E355219CFC44200954B44 /* YelpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900E356F19CFC44200954B44 /* Build configuration list for PBXNativeTarget "YelpClient" */;
+			buildPhases = (
+				E40B8ED894304CDB86B604E7 /* Check Pods Manifest.lock */,
+				900E354F19CFC44200954B44 /* Sources */,
+				900E355019CFC44200954B44 /* Frameworks */,
+				900E355119CFC44200954B44 /* Resources */,
+				EA28DFCB10D54839ADB2BB6C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpClient;
+			productName = YelpClient;
+			productReference = 900E355319CFC44200954B44 /* YelpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900E356419CFC44200954B44 /* YelpClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900E357219CFC44200954B44 /* Build configuration list for PBXNativeTarget "YelpClientTests" */;
+			buildPhases = (
+				900E356119CFC44200954B44 /* Sources */,
+				900E356219CFC44200954B44 /* Frameworks */,
+				900E356319CFC44200954B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900E356719CFC44200954B44 /* PBXTargetDependency */,
+			);
+			name = YelpClientTests;
+			productName = YelpClientTests;
+			productReference = 900E356519CFC44200954B44 /* YelpClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900E354B19CFC44200954B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GoliaMania;
+				TargetAttributes = {
+					900E355219CFC44200954B44 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					900E356419CFC44200954B44 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 900E355219CFC44200954B44;
+					};
+				};
+			};
+			buildConfigurationList = 900E354E19CFC44200954B44 /* Build configuration list for PBXProject "YelpClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900E354A19CFC44200954B44;
+			productRefGroup = 900E355419CFC44200954B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900E355219CFC44200954B44 /* YelpClient */,
+				900E356419CFC44200954B44 /* YelpClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900E355119CFC44200954B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9071CEB319D14E5600466BA7 /* Podfile in Resources */,
+				900E355E19CFC44200954B44 /* Main.storyboard in Resources */,
+				900E356019CFC44200954B44 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E356319CFC44200954B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E40B8ED894304CDB86B604E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA28DFCB10D54839ADB2BB6C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900E354F19CFC44200954B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903D01D519D658D900F2CE1E /* FilterViewController.swift in Sources */,
+				900E355B19CFC44200954B44 /* ViewController.swift in Sources */,
+				9071CEAC19D14A9D00466BA7 /* RestaurantTitleCard.swift in Sources */,
+				9071CEA519D10FDD00466BA7 /* RestaurantsViewController.swift in Sources */,
+				900E355919CFC44200954B44 /* AppDelegate.swift in Sources */,
+				9071CEAE19D14D8900466BA7 /* ApiClient.swift in Sources */,
+				903D01D719D65E6100F2CE1E /* FilterOptionsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E356119CFC44200954B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900E356C19CFC44200954B44 /* YelpClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900E356719CFC44200954B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900E355219CFC44200954B44 /* YelpClient */;
+			targetProxy = 900E356619CFC44200954B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		900E355C19CFC44200954B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900E355D19CFC44200954B44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900E356D19CFC44200954B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900E356E19CFC44200954B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900E357019CFC44200954B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825C47A20B474760976E07E8 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YelpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YelpClient/YelpClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900E357119CFC44200954B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825C47A20B474760976E07E8 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YelpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YelpClient/YelpClient-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		900E357319CFC44200954B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YelpClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YelpClient.app/YelpClient";
+			};
+			name = Debug;
+		};
+		900E357419CFC44200954B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YelpClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YelpClient.app/YelpClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900E354E19CFC44200954B44 /* Build configuration list for PBXProject "YelpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E356D19CFC44200954B44 /* Debug */,
+				900E356E19CFC44200954B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900E356F19CFC44200954B44 /* Build configuration list for PBXNativeTarget "YelpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E357019CFC44200954B44 /* Debug */,
+				900E357119CFC44200954B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900E357219CFC44200954B44 /* Build configuration list for PBXNativeTarget "YelpClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E357319CFC44200954B44 /* Debug */,
+				900E357419CFC44200954B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900E354B19CFC44200954B44 /* Project object */;
+}

@@ -10,6 +10,10 @@ import UIKit
 
 class RestaurantsViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var searchBarView: UIView!
+    @IBOutlet weak var appNavigation: UINavigationItem!
+   
+    @IBOutlet weak var searchBar: UISearchBar!
 //    let yelpConsumerKey = "gHBS1xPTY9-IqZfrxKHcjA"
 //    let yelpConsumerSecret = "9weUSxHsfq5iWl2WV3QRKLC8EWc"
 //    let yelpToken = "39kn0Xj1hD1nQxmMLv6vFZMBHUGBmT1b"
@@ -25,6 +29,7 @@ class RestaurantsViewController: UIViewController,UITableViewDataSource, UITable
     @IBOutlet weak var restaurantsList: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.appNavigation.titleView = self.searchBarView
         
         restaurantsList.delegate = self;
         restaurantsList.dataSource = self;
@@ -54,8 +59,10 @@ class RestaurantsViewController: UIViewController,UITableViewDataSource, UITable
         var cell = tableView.dequeueReusableCellWithIdentifier("titleCard") as RestaurantTitleCard;
         var restaurant = self.restaurants[indexPath.row];
         var thumbnail = restaurant["image_url"] as NSString;
-
-        cell.restaurantTitle.text = restaurant["name"] as NSString
+        var rowIdx = indexPath.row+1;
+        var restaurantName = restaurant["name"] as NSString;
+        
+        cell.restaurantTitle.text = "\(rowIdx). \(restaurantName)";
         cell.thumbView.setImageWithURL(NSURL(string:thumbnail));
         cell.reviewStars.setImageWithURL(NSURL(string:restaurant["rating_img_url_large"] as NSString));
         var reviewCount = restaurant["review_count"]

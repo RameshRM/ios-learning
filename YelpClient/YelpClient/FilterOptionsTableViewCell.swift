@@ -10,6 +10,8 @@ import UIKit
 
 class FilterOptionsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var isFilterOn: UISwitch!
+    @IBOutlet weak var filterOptionText: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

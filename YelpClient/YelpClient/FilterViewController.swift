@@ -8,17 +8,35 @@
 
 import UIKit
 
-class FilterViewController: UIViewController {
+class FilterViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
+
+    @IBOutlet weak var generalFeatureList: UITableView!
+    @IBOutlet weak var popularFilters: UITableView!
+    var popularFilterOptions:Array<NSDictionary>=[];
+    var generalFeatures:Array<NSDictionary>=[];
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var option:NSDictionary=["text":"Open Now", "isSelected": false];
+        popularFilterOptions.append(option);
+        option=["text":"Hot & New", "isSelected": false];
+        self.popularFilterOptions.append(option);
+        option=["text":"Offering a Deal", "isSelected": false];
+        self.popularFilterOptions.append(option);
 
-        // Do any additional setup after loading the view.
+        
+        popularFilters.delegate = self;
+        popularFilters.dataSource = self;
+        popularFilters.reloadData();
+        
+        option=["text":"Take-Out", "isSelected": false];
+        
+println(self.popularFilterOptions);
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 
@@ -32,4 +50,23 @@ class FilterViewController: UIViewController {
     }
     */
 
+    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+        println(tableView);
+        
+        return self.popularFilterOptions.count;
+    }
+    
+    
+    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+        
+        var cell = popularFilters.dequeueReusableCellWithIdentifier("popularOptions")
+            as FilterOptionsTableViewCell
+        
+        var filterOption = popularFilterOptions[indexPath.row];
+        cell.filterOptionText.text = filterOption["text"] as NSString;
+        
+        var isOn = filterOption["isSelected"] as Bool;
+        cell.isFilterOn.on = isOn;
+        return cell;
+    }
 }

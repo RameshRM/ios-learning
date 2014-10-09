@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AF9B8A19E6356F001FE129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF9B8919E6356F001FE129 /* AppDelegate.swift */; };
+		90AF9B8C19E6356F001FE129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF9B8B19E6356F001FE129 /* ViewController.swift */; };
+		90AF9B8F19E6356F001FE129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AF9B8D19E6356F001FE129 /* Main.storyboard */; };
+		90AF9B9119E6356F001FE129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AF9B9019E6356F001FE129 /* Images.xcassets */; };
+		90AF9B9419E6356F001FE129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AF9B9219E6356F001FE129 /* LaunchScreen.xib */; };
+		90AF9BA019E6356F001FE129 /* HealthTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF9B9F19E6356F001FE129 /* HealthTodoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90AF9B9A19E6356F001FE129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AF9B7C19E6356F001FE129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AF9B8319E6356F001FE129;
+			remoteInfo = HealthTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90AF9B8419E6356F001FE129 /* HealthTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AF9B8819E6356F001FE129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AF9B8919E6356F001FE129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90AF9B8B19E6356F001FE129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90AF9B8E19E6356F001FE129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90AF9B9019E6356F001FE129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90AF9B9319E6356F001FE129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		90AF9B9919E6356F001FE129 /* HealthTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AF9B9E19E6356F001FE129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AF9B9F19E6356F001FE129 /* HealthTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTodoTests.swift; sourceTree = "<group>"; };
+		90AF9BA919E643D6001FE129 /* HealthTodo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthTodo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AF9B8119E6356F001FE129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF9B9619E6356F001FE129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AF9B7B19E6356F001FE129 = {
+			isa = PBXGroup;
+			children = (
+				90AF9B8619E6356F001FE129 /* HealthTodo */,
+				90AF9B9C19E6356F001FE129 /* HealthTodoTests */,
+				90AF9B8519E6356F001FE129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AF9B8519E6356F001FE129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AF9B8419E6356F001FE129 /* HealthTodo.app */,
+				90AF9B9919E6356F001FE129 /* HealthTodoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AF9B8619E6356F001FE129 /* HealthTodo */ = {
+			isa = PBXGroup;
+			children = (
+				90AF9B8919E6356F001FE129 /* AppDelegate.swift */,
+				90AF9B8B19E6356F001FE129 /* ViewController.swift */,
+				90AF9B8D19E6356F001FE129 /* Main.storyboard */,
+				90AF9B9019E6356F001FE129 /* Images.xcassets */,
+				90AF9B9219E6356F001FE129 /* LaunchScreen.xib */,
+				90AF9B8719E6356F001FE129 /* Supporting Files */,
+				90AF9BA919E643D6001FE129 /* HealthTodo-Bridging-Header.h */,
+			);
+			path = HealthTodo;
+			sourceTree = "<group>";
+		};
+		90AF9B8719E6356F001FE129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90AF9B8819E6356F001FE129 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90AF9B9C19E6356F001FE129 /* HealthTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				90AF9B9F19E6356F001FE129 /* HealthTodoTests.swift */,
+				90AF9B9D19E6356F001FE129 /* Supporting Files */,
+			);
+			path = HealthTodoTests;
+			sourceTree = "<group>";
+		};
+		90AF9B9D19E6356F001FE129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90AF9B9E19E6356F001FE129 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AF9B8319E6356F001FE129 /* HealthTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AF9BA319E6356F001FE129 /* Build configuration list for PBXNativeTarget "HealthTodo" */;
+			buildPhases = (
+				90AF9B8019E6356F001FE129 /* Sources */,
+				90AF9B8119E6356F001FE129 /* Frameworks */,
+				90AF9B8219E6356F001FE129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthTodo;
+			productName = HealthTodo;
+			productReference = 90AF9B8419E6356F001FE129 /* HealthTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90AF9B9819E6356F001FE129 /* HealthTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AF9BA619E6356F001FE129 /* Build configuration list for PBXNativeTarget "HealthTodoTests" */;
+			buildPhases = (
+				90AF9B9519E6356F001FE129 /* Sources */,
+				90AF9B9619E6356F001FE129 /* Frameworks */,
+				90AF9B9719E6356F001FE129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AF9B9B19E6356F001FE129 /* PBXTargetDependency */,
+			);
+			name = HealthTodoTests;
+			productName = HealthTodoTests;
+			productReference = 90AF9B9919E6356F001FE129 /* HealthTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AF9B7C19E6356F001FE129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GoliaMania;
+				TargetAttributes = {
+					90AF9B8319E6356F001FE129 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					90AF9B9819E6356F001FE129 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 90AF9B8319E6356F001FE129;
+					};
+				};
+			};
+			buildConfigurationList = 90AF9B7F19E6356F001FE129 /* Build configuration list for PBXProject "HealthTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AF9B7B19E6356F001FE129;
+			productRefGroup = 90AF9B8519E6356F001FE129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AF9B8319E6356F001FE129 /* HealthTodo */,
+				90AF9B9819E6356F001FE129 /* HealthTodoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AF9B8219E6356F001FE129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF9B8F19E6356F001FE129 /* Main.storyboard in Resources */,
+				90AF9B9419E6356F001FE129 /* LaunchScreen.xib in Resources */,
+				90AF9B9119E6356F001FE129 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF9B9719E6356F001FE129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AF9B8019E6356F001FE129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF9B8C19E6356F001FE129 /* ViewController.swift in Sources */,
+				90AF9B8A19E6356F001FE129 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF9B9519E6356F001FE129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF9BA019E6356F001FE129 /* HealthTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90AF9B9B19E6356F001FE129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AF9B8319E6356F001FE129 /* HealthTodo */;
+			targetProxy = 90AF9B9A19E6356F001FE129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90AF9B8D19E6356F001FE129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AF9B8E19E6356F001FE129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90AF9B9219E6356F001FE129 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AF9B9319E6356F001FE129 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90AF9BA119E6356F001FE129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90AF9BA219E6356F001FE129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90AF9BA419E6356F001FE129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HealthTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthTodo/HealthTodo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AF9BA519E6356F001FE129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HealthTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthTodo/HealthTodo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		90AF9BA719E6356F001FE129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthTodo.app/HealthTodo";
+			};
+			name = Debug;
+		};
+		90AF9BA819E6356F001FE129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthTodo.app/HealthTodo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AF9B7F19E6356F001FE129 /* Build configuration list for PBXProject "HealthTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF9BA119E6356F001FE129 /* Debug */,
+				90AF9BA219E6356F001FE129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AF9BA319E6356F001FE129 /* Build configuration list for PBXNativeTarget "HealthTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF9BA419E6356F001FE129 /* Debug */,
+				90AF9BA519E6356F001FE129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90AF9BA619E6356F001FE129 /* Build configuration list for PBXNativeTarget "HealthTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF9BA719E6356F001FE129 /* Debug */,
+				90AF9BA819E6356F001FE129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AF9B7C19E6356F001FE129 /* Project object */;
+}
