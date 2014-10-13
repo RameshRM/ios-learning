@@ -13,6 +13,11 @@ import HealthKit
 class ViewController: UIViewController{
     let interval = NSDateComponents();
     
+    /**Variable Declaration of Button Defined in StoryBoard***/
+    @IBAction func onPushAction(sender: AnyObject) {
+        println("Button Clicked");
+    }
+    @IBOutlet weak var helloButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
