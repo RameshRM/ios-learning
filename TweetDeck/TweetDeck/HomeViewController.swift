@@ -12,10 +12,26 @@ class HomeViewController: UIViewController {
 
     @IBAction func authorize(sender: AnyObject) {
         println("Authorized ..");
+        
+        
+        var localNotification:UILocalNotification = UILocalNotification()
+        localNotification.alertAction = "Testing notifications on iOS8"
+        localNotification.alertBody = "Woww not it works!!"
+
+        localNotification.fireDate = NSDate(timeIntervalSinceNow: 30)
+        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
+        println("Testing local notification");
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+//        
+        var localNotification:UILocalNotification = UILocalNotification()
+        localNotification.alertAction = "Testing notifications on iOS8"
+        localNotification.alertBody = "View Did Load ... Woww it works!!"
+        localNotification.fireDate = NSDate(timeIntervalSinceNow: 30)
+        
 
+        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
         // Do any additional setup after loading the view.
     }
 

@@ -22,7 +22,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var movieRating: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var posters = movieEntity["posters"] Xas NSDictionary;
+        var posters = movieEntity["posters"] as NSDictionary;
         var posterImage = posters["detailed"] as NSString;
         moviePoster.setImageWithURL(NSURL(string: posterImage));
         
