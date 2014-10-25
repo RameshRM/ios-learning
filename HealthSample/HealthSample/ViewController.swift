@@ -40,6 +40,10 @@ class ViewController: UIViewController, HealthStoreUser {
         super.viewDidLoad()
         requestAuthorisationForHealthStore()
         getWeightInKg();
+        let path = NSBundle.mainBundle().pathForResource("Info", ofType: "plist")
+        var configList: NSDictionary?
+        configList = NSDictionary(contentsOfFile: path!);
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -79,10 +83,10 @@ class ViewController: UIViewController, HealthStoreUser {
         var healthStore = HKHealthStore();
         healthStore.executeQuery(stepQuery)
         var heightSampleType = HKSampleType.quantityTypeForIdentifier(HKQuantityTypeIdentifierHeight)
-        let updateHandler: (HKObserverQuery!, HKObserverQueryCompletionHandler!, NSError!) -> Void = { query, completion, error in
-            self.sendNotification()
-        }
         
+        let updateHandler: (HKObserverQuery!, HKObserverQueryCompletionHandler!, NSError!) -> Void = { query, completion, error in
+            self.getHeight()
+        }
         var observeHeightChange = HKObserverQuery(sampleType: heightSampleType, predicate: nil, updateHandler: updateHandler)
         healthStore.executeQuery(observeHeightChange);
     }
@@ -92,9 +96,9 @@ class ViewController: UIViewController, HealthStoreUser {
             println("Error in retrieving sample query")
         }else{
             if(result != nil){
-                var weight = result[0] as HKQuantitySample
-                let weightReturned = weight.quantity.doubleValueForUnit(HKUnit(fromString: "kg"))
-                self.weight?.text = "\(massFormatter.stringFromValue(weightReturned, unit:.Kilogram))"
+//                var weight = result[0] as HKQuantitySample
+//                let weightReturned = weight.quantity.doubleValueForUnit(HKUnit(fromString: "kg"))
+//                self.weight?.text = "\(massFormatter.stringFromValue(weightReturned, unit:.Kilogram))"
             }
         }
         
@@ -103,26 +107,39 @@ class ViewController: UIViewController, HealthStoreUser {
     
     @IBAction func onChange(sender: AnyObject) {
         let weightType = HKObjectType.quantityTypeForIdentifier(HKQuantityTypeIdentifierBodyMass)
-        
         let weightValue = HKQuantity(unit: HKUnit(fromString: "kg"), doubleValue: 35)
-        
         let metadata = [ HKMetadataKeyWasUserEntered : true ]
-        
-//        let sample = HKQuantitySample(type: weightType,
-//            quantity: <#HKQuantity!#>,
-//            startDate: <#NSDate!#>,
-//            endDate: <#NSDate!#>)
-//        
     }
     
     
-    func sendNotification() -> Void{
+    func sendNotification(notificationMessage: NSString) -> Void{
         var localNotification:UILocalNotification = UILocalNotification()
         localNotification.alertAction = "Observing Height Change"
-        localNotification.alertBody = "Height is changed from HealthData"
+        localNotification.alertBody = notificationMessage
+        
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
-
+//                callback();
     }
 
+    func getHeight(){
+        var height = HKSampleType.quantityTypeForIdentifier(HKQuantityTypeIdentifierHeight)
+        var sampleHeight = HKSampleQuery(sampleType: height, predicate: nil, limit: 1,
+            sortDescriptors: nil) { (sampleQuery: HKSampleQuery!, result:[AnyObject]!, error: NSError!) -> Void in
+                self.onHeightSampleReceived(result, error: error)
+        }
+        var healthStore = HKHealthStore();
+        healthStore.executeQuery(sampleHeight)
+        
+    }
+    
+    func onHeightSampleReceived(result: [AnyObject]!, error: NSError!)-> Void{
+        if(result != nil){
+//            var height = result[0] as HKQuantitySample
+//            
+//            let heightReturned = height.quantity.doubleValueForUnit(HKUnit(fromString: "in"))
+//            sendNotification("\(heightReturned)");
+        }
+        
+    }
 }
 

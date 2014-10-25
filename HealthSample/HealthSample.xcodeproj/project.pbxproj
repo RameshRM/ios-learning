@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90A5A9BE19FB6402005CFCDD /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */; };
 		90FD9B6719F4AB3800E28744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6619F4AB3800E28744 /* AppDelegate.swift */; };
 		90FD9B6A19F4AB3800E28744 /* HealthSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6819F4AB3800E28744 /* HealthSample.xcdatamodeld */; };
 		90FD9B6C19F4AB3800E28744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6B19F4AB3800E28744 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		90FD9B6119F4AB3800E28744 /* HealthSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FD9B6519F4AB3800E28744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90FD9B6619F4AB3800E28744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90A5A9BC19FB63D7005CFCDD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90FD9B6B19F4AB3800E28744 /* ViewController.swift */,
+				90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		90FD9B5819F4AB3800E28744 = {
 			isa = PBXGroup;
 			children = (
@@ -86,9 +97,9 @@
 		90FD9B6319F4AB3800E28744 /* HealthSample */ = {
 			isa = PBXGroup;
 			children = (
+				90A5A9BC19FB63D7005CFCDD /* ViewControllers */,
 				90FD9B8B19F4AB4700E28744 /* HealthSample.entitlements */,
 				90FD9B6619F4AB3800E28744 /* AppDelegate.swift */,
-				90FD9B6B19F4AB3800E28744 /* ViewController.swift */,
 				90FD9B6D19F4AB3800E28744 /* Main.storyboard */,
 				90FD9B7019F4AB3800E28744 /* Images.xcassets */,
 				90FD9B7219F4AB3800E28744 /* LaunchScreen.xib */,
@@ -234,6 +245,7 @@
 				90FD9B6719F4AB3800E28744 /* AppDelegate.swift in Sources */,
 				90FD9B8D19F4ABBF00E28744 /* HealthStoreUser.swift in Sources */,
 				90FD9B6A19F4AB3800E28744 /* HealthSample.xcdatamodeld in Sources */,
+				90A5A9BE19FB6402005CFCDD /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +447,7 @@
 				90FD9B8519F4AB3800E28744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90FD9B8619F4AB3800E28744 /* Build configuration list for PBXNativeTarget "HealthSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +456,7 @@
 				90FD9B8819F4AB3800E28744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
