@@ -17,5 +17,6 @@
 import UIKit
 import HealthKit
 
-class EventsViewController: UIViewController{
+class EventsViewController: BaseViewController{
+    
 }

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		90A5A9BE19FB6402005CFCDD /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */; };
+		90A5AA2019FD89D3005CFCDD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5AA1F19FD89D3005CFCDD /* BaseViewController.swift */; };
+		90A5AA2219FD8A2D005CFCDD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5AA2119FD8A2D005CFCDD /* HomeViewController.swift */; };
+		90A5AA2419FD8A6C005CFCDD /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5AA2319FD8A6C005CFCDD /* AlertsViewController.swift */; };
+		90A5AA2619FD8A98005CFCDD /* AlertDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5AA2519FD8A98005CFCDD /* AlertDetailViewController.swift */; };
+		90A5AA2819FD8AAD005CFCDD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5AA2719FD8AAD005CFCDD /* SettingsViewController.swift */; };
 		90FD9B6719F4AB3800E28744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6619F4AB3800E28744 /* AppDelegate.swift */; };
 		90FD9B6A19F4AB3800E28744 /* HealthSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6819F4AB3800E28744 /* HealthSample.xcdatamodeld */; };
 		90FD9B6C19F4AB3800E28744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD9B6B19F4AB3800E28744 /* ViewController.swift */; };
@@ -31,6 +36,11 @@
 
 /* Begin PBXFileReference section */
 		90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		90A5AA1F19FD89D3005CFCDD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		90A5AA2119FD8A2D005CFCDD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		90A5AA2319FD8A6C005CFCDD /* AlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		90A5AA2519FD8A98005CFCDD /* AlertDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDetailViewController.swift; sourceTree = "<group>"; };
+		90A5AA2719FD8AAD005CFCDD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		90FD9B6119F4AB3800E28744 /* HealthSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FD9B6519F4AB3800E28744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90FD9B6619F4AB3800E28744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +81,11 @@
 			children = (
 				90FD9B6B19F4AB3800E28744 /* ViewController.swift */,
 				90A5A9BD19FB6402005CFCDD /* EventsViewController.swift */,
+				90A5AA1F19FD89D3005CFCDD /* BaseViewController.swift */,
+				90A5AA2119FD8A2D005CFCDD /* HomeViewController.swift */,
+				90A5AA2319FD8A6C005CFCDD /* AlertsViewController.swift */,
+				90A5AA2519FD8A98005CFCDD /* AlertDetailViewController.swift */,
+				90A5AA2719FD8AAD005CFCDD /* SettingsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -244,8 +259,13 @@
 				90FD9B6C19F4AB3800E28744 /* ViewController.swift in Sources */,
 				90FD9B6719F4AB3800E28744 /* AppDelegate.swift in Sources */,
 				90FD9B8D19F4ABBF00E28744 /* HealthStoreUser.swift in Sources */,
+				90A5AA2819FD8AAD005CFCDD /* SettingsViewController.swift in Sources */,
+				90A5AA2619FD8A98005CFCDD /* AlertDetailViewController.swift in Sources */,
 				90FD9B6A19F4AB3800E28744 /* HealthSample.xcdatamodeld in Sources */,
 				90A5A9BE19FB6402005CFCDD /* EventsViewController.swift in Sources */,
+				90A5AA2219FD8A2D005CFCDD /* HomeViewController.swift in Sources */,
+				90A5AA2019FD89D3005CFCDD /* BaseViewController.swift in Sources */,
+				90A5AA2419FD8A6C005CFCDD /* AlertsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
